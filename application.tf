@@ -2,7 +2,7 @@ resource "google_project" "web_size_architecture" {
   auto_create_network = true
   billing_account     = "015E74-A4716F-27DC46"
   name                = "Lab GCP Terraform"
-  project_id          = "gcp-web-architecture"
+  project_id          = "gcp web architecture"
 }
 # terraform import google_project.web_size_architecture projects/gcp web architecture
 resource "google_compute_disk" "backend_mig_1b89" {
